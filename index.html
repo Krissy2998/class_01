@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class 1 Lab</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+    h1 {
+      color: #333;
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+
+    p {
+      color: #fff;
+      background-color: #333;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Class 1 Lab</h1>
+  </header>
+
+  <main>
+    <p style="color: #ff0000; background-color: #ffe6e6;">What is your favorite color?</p>
+    <p style="color: #00ff00; background-color: #e6ffe6;">What is your favorite food?</p>
+    <p style="color: #0000ff; background-color: #e6e6ff;">Where is your dream vacation destination?</p>
+    <p style="color: #ffff00; background-color: #ffffe6;">What is your name?</p>
+  </main>
+
+  <footer></footer>
+
+  <script>
+    // Prompting user for input
+    var favoriteColor = prompt("What is your favorite color?");
+    console.log("Question: What is your favorite color?");
+    console.log("User's response:", favoriteColor);
+
+    var favoriteFood = prompt("What is your favorite food?");
+    console.log("Question: What is your favorite food?");
+    console.log("User's response:", favoriteFood);
+
+    var dreamDestination = prompt("Where is your dream vacation destination?");
+    console.log("Question: Where is your dream vacation destination?");
+    console.log("User's response:", dreamDestination);
+
+    var name = prompt("What is your name?");
+    console.log("Question: What is your name?");
+    console.log("User's response:", name);
+
+    // Displaying concatenated responses in an alert
+    var message = "Greetings, " + name + ", I also like to eat " + favoriteFood + " while on vacation in " + dreamDestination + ".";
+    alert(message);
+  </script>
+</body>
+</html>
